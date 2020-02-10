@@ -2,49 +2,173 @@
 	<head>
 		<title>list</title>
 	</head>
-	<body>
-		<a href="https://www.w3schools.com/">click here!</a>
+	<body style="background-image:url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) ;background-size: cover;; width:100%">
+		<h1 style="color:blue;font-family:verdana;">This is Heading 1</h1>
+		<h1 style="font-family:courier;">This is Heading 1</h1>
+		<a style="text-decoration:none; color=black;" href="https://www.w3schools.com/">click here!</a>
 		<a href="https://www.edhitch.com/welcometoedhitch">Edhitch</a>
-		<img src="https://as2.ftcdn.net/jpg/02/81/26/63/500_F_281266321_Y20WMaFGtspOjoqsE3gUi11p5I4N3CcS.jpg" alt="farmer">
+		<a style="text-decoration:none; color=black;" href="mailto:amalmallisseri123@gmail.com">Send mail</a>
+		<a href="basic.html"><img src="https://as2.ftcdn.net/jpg/02/81/26/63/500_F_281266321_Y20WMaFGtspOjoqsE3gUi11p5I4N3CcS.jpg" alt="farmer"></a>
+		<table border="1" bgcolor="yellow" style="opacity:0.7;">
+			<tr style="background-color:#fff">
+				<th>c1</th>
+				<th>c2</th>
+				<th>c3</th>
+			</tr>
+			<tr style="background-color:#f1f1f1">
+				<td rowspan="2">r1 c1</td>
+				<td>r1 c2</td>
+				<td>r1 c3</td>
+			</tr>
+			<tr style="background-color:#777">
+				<td>r2 c2</td>
+				<td>r2 c3</td>
+			</tr>
+			<tr style="background-color:tomato;">
+				<td colspan="3">r3 c1</td>
+			</tr>
+		</table>
+		<font size="1">Font size="1"</font><br>
+		<font size="2">Font size="2"</font><br>
+		<font size="3">Font size="3"</font><br>
+		<font size="4">Font size="4"</font><br>
+		<font size="5">Font size="5"</font><br>
+		<font size="6">Font size="6"</font><br>		
+		<font size="7">Font size="7"</font><br>
+		<marquee>This will slide infinitly</marquee>
+		<p style="background-image:url(https://images.pexels.com/photos/630754/autumn-orange-nature-red-630754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)"><img src="" alt="farmer" style="float:right;width:42px;height:42px;">The image will float to the right of the text.</p>
+		<p><img src="" alt="farmer" style="float:left;width:42px;height:42px;">The image will float to the left of the text.</p>
+		 <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+		<map name="workmap">
+ 		<area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  		<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  		<area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+		</map>
+		<div style="background-color:black;color:white;padding:20px;">
+		<h2>London <span style="color:black;background-color:white;padding:0 5px;border-radius:5%">City</span> </h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has &copy; survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		</div>  
+		<iframe src="https://www.wikipedia.org/" width="50%" height="50%">hgjlkgghfrtkjjfdsgh</iframe>
+		<embed src="https://youtu.be/gNmgOkQjiy0" width="100%" height="60%">
 		<!--
-		<img> image tag
-			src="" attribute to give the image source
-			alt="" attribute to give an alternate for the image
-		<a> anchor tag
-			href="#" attribute to give the link where the anchor tag should direct (Hypertext REFerence)
-			name="" attribute to traverse in the same web page 
-		<table> table tag
-			<tr>-table row
-			<th>-table header (always center aligned)
-			<td>-table data
-			<caption>-catpion
-				align="" attribute to align the text top
-(above the table), bottom(below the table), right and left
-			Border="" attribute used for thickness of the border
-			Bgcolor="" attribute for background color
-			Width="" attribute used to specify width only for <table> tag
-			CellSpacing="" attribute is used to represent the space between cells and is specified in pixels only works on <table> tag	
-			align="" attribute to align the contents in the table or cell
-			Background="" attribute to have a background images,will be titled in IE3.0 and above.
-			BorderColor=""
-			BorderColorDark=""
-		<dl> definition tag
-			<dt>-definition term
-			<dd>-definition data
-		<ul> unordered list
-			type="" has three variations 1.Disc(default) 2.Circle 3.Sqaure
-		<ol> ordered list
-			type="" has five variations 1.1(default) 2.i 3.I 4.a 5.A
-			start="" atttribute to specify the starting number of the list
-		<strike> striked text
-		<sup> superscript
-		<sub> subscript
-		<pre> pre formated
-		<tt> monospaced
-		<hr> horizontal line
-		<br> line break
-		aling="" attribute to aling
-		valign="" attribute to align vertically
+		27.HTML entities
+			non-breaking space( ): &nbsp;
+			less than(<): &lt;
+			greater than(>): &gt;
+			ampersand(&): &amp;
+			double quotation mark("): &dqm;
+			single quotation mark('): &sqm;
+			cent: &cent;
+			pound: &pound;
+			copy right: &copy;
+		26.<iframe> tag
+		It opens a different website in the same website by opening a window with a desired dimensions
+		25.<frameset> frames tag
+		It partionions a website horizontally or verticaly to load differrent page at the same time.
+		24.<span> span ta
+		the <span> element is often used as a container for some text
+		23.<div> dvision tag
+		the <div> element is often used as a container for other HTML elments
+		22.background-image:url(" ") used to set the background image of the area or tag
+		21.Image map <map>
+			The <map> tag define an image-map. An image is an image with clikable areas
+			The name="mapname" attribute should match the same as the usemap="#mapname" 
+			|<area> defines the area of the clickable objects
+				|shape="" attribute is used to define the shape of the clickable region
+				|coords="" attibute is used to define the co-ordinates
+		20.color: ; and background-color: ; property helps to give the color to the text or color to the background respectively
+		The color can be given in three format:-
+			1.#f1f2f3f (Every color has one)
+			2.rgb(_,_,_) function (red,green,blue pixel value is given)
+			3.hsl(_,_,_) function (heuristic,saturation,lightness)
+		19.style="" attribute is used to style any part of the website to increase the appeal of the website
+
+		18.<marquee> marquee tag
+			|direction="" attribute to specify the direction of the orientation of the content within the marquee tag
+			Example:
+				<marquee>This will slide infinitly</marquee>	
+
+	`	17.<font> font tag 
+			|size="" attribute to specify the size of the content(Note: Size is proportional to the value assigned to the attribute)
+			Example:
+				<font size="1">Font size="1"</font><br>
+				<font size="2">Font size="2"</font><br>
+				<font size="3">Font size="3"</font><br>
+				<font size="4">Font size="4"</font><br>
+				<font size="5">Font size="5"</font><br>
+				<font size="6">Font size="6"</font><br>
+				<font size="7">Font size="7"</font><br>
+		16.Email tag : HTML <a> tags provides you option to specify an email address to send an email.While using <a>tag as an email tag,you will use "mailto:email address" along with href attribute
+			Example:
+				<a href=" mailto:amalmallisseri123@gmail.com">Send mail</a>
+		15.<img> image tag
+			|src="" attribute to give the image source
+			|alt="" attribute to give an alternate for the image
+			|width="" attribute to define the width of the image
+			|hight="" attribute to define the hight of the image
+			|Border="" attribute used for thickness of the border
+			Example:
+				<img src="https://as2.ftcdn.net/jpg/02/81/26/63/500_F_281266321_Y20WMaFGtspOjoqsE3gUi11p5I4N3CcS.jpg" alt="farmer">
+
+		14.<a> anchor tag
+			|href="#" attribute to give the link where the anchor tag should direct (Hypertext REFerence)
+			|name="" attribute to traverse in the same web page 
+			Example:
+				<a href="https://www.w3schools.com/">click here!</a>
+
+		13.<table> table tag
+			|<tr>-table row
+			|<th>-table header (always center aligned)
+			|<td>-table data
+			|<caption>-catpion
+			|align="" attribute to align the text top(above the table), bottom(below the table), right and left
+			|Border="" attribute used for thickness of the border
+			|Bgcolor="" attribute for background color
+			|Width="" attribute used to specify width only for <table> tag
+			|CellSpacing="" attribute is used to represent the space between cells and is specified in pixels only works on <table> tag	
+			|align="" attribute to align the contents in the table or cell
+			|Background="" attribute to have a background images,will be titled in IE3.0 and above.
+			|BorderColor=""
+			|BorderColorDark=""
+			|colspan="" attribute to merge two or more columns into a single column
+			|rowspan="" attribute to merge two or more rows into a single row
+			Example:
+				<table border="1" bgcolor="yellow">
+			<tr>
+				<th>c1</th>
+				<th>c2</th>
+				<th>c3</th>
+			</tr>
+			<tr>
+				<td rowspan="2">r1 c1</td>
+				<td>r1 c2</td>
+				<td>r1 c3</td>
+			</tr>
+			<tr>
+				<td>r2 c2</td>
+				<td>r2 c3</td>
+			</tr>
+			<tr>
+				<td colspan="3">r3 c1</td>
+			</tr>
+		</table>
+		12.<dl> definition tag
+			|<dt>-definition term
+			|<dd>-definition data
+		11.<ul> unordered list
+			|type="" has three variations 1.Disc(default) 2.Circle 3.Sqaure
+		10.<ol> ordered list
+			|type="" has five variations 1.1(default) 2.i 3.I 4.a 5.A
+			|start="" atttribute to specify the starting number of the list
+		9.<strike> striked text
+		8.<sup> superscript
+		7.<sub> subscript
+		6.<pre> pre formated
+		5.<tt> monospaced
+		4.<hr> horizontal line
+		3.<br> line break
+		2.aling="" attribute to aling
+		1.valign="" attribute to align vertically
 		-->
 		
 	</body>
